@@ -9,7 +9,7 @@ body {
     font-size: 16px;
 }
 p {
-    font-family: ‘Quattrocento’, Georgia, “Times New Roman”, serif;
+    font-family: ‘Quattrocento’, Georgia, 'Times New Roman', serif;
     font-weight: 400;
     line-height: 1.4em;
 }
