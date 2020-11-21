@@ -1,0 +1,158 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.navBar {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 60px;
+}
+
+.navLeft {
+    background-color: #333333;
+    color: #edede6;
+}
+
+.navLeft h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.navRight {
+    background-color: #333333;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navRight a {
+    color: #edede6;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 20px;
+    letter-spacing: 2px;
+}
+
+.nav li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.gridLeft1 {
+    background-color: #ff3650;
+    color: #edede6;
+    height: 600px;
+}
+
+.gridRight1 h1 {
+    padding-left: 20%;
+    padding-top: 10%;
+    padding-right: 10%;
+}
+
+.gridRight1 p {
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.gridRight1 {
+    background-color: #ff3650;
+    color: #333333;
+    height: 600px;
+}
+.gridLeft2 {
+    background-image: url("images/sheetbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #edede6;
+    height: 600px;
+}
+
+.gridRight2 {
+    background-color: #edede6;
+    color: #333333;
+    height: 600px;
+}
+
+.nested {
+    background-color: #1a222e;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    height: 600px;
+}
+
+.gridRight3 {
+    background-color: #1a222e;
+    color: #edede6;
+    height: 600px;
+    text-align: center;
+}
+
+.gridRight3 li {
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    list-style-position: inside;
+    padding-top: 30px;
+}
+
+.gridRight3 h1 {
+    padding-top: 20px;
+}
+
+.grad {
+    border-radius: 5%;
+    height: 85%;
+    width: 450px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.mcdc {
+    border-radius: 5%;
+    height: 85%;
+    width: 450px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+table {
+    margin: auto auto;
+    padding-top: 100px;
+}
+
+.tableTitle {
+    font-weight: bold;
+}
+
+th {
+    font-size: 20pt;
+    border: #edede6 1px solid;
+    padding: 20px 20px;
+}
+
+.nestedImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
